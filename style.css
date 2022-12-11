@@ -53,3 +53,18 @@ body::after {
     position: relative;
     display: grid;
 }
+
+.container .calculator .value {
+    grid-column: span 4;
+    height: 140px;
+    width: 300px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 30px;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
